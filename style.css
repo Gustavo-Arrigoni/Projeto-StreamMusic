@@ -1,0 +1,57 @@
+body {
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.container {
+    background-color: black;
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+}
+
+.container h1 {
+    font-size: 16px;
+}
+
+.main {
+    margin: 20px;
+    margin-top: 180px;
+    padding: 0 40px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.Bt-Playlists {
+    background-image: linear-gradient(to right, rgb(176, 59, 206), rgb(142, 22, 211), rgb(68, 26, 204));
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.Bt-Playlists h2 {
+    color: ghostwhite;
+    font-size: 16px;
+    margin: 0;
+}
+
+.Bt-VerMais {
+    background-color: ghostwhite;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.Bt-VerMais h2 {
+    color: rgb(176, 59, 206);
+    font-size: 16px;
+    margin: 0;
+}

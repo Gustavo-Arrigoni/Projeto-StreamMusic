@@ -1,0 +1,132 @@
+body {
+    animation: aparecer 0.6s ease;
+    background-image: linear-gradient(to right, rgb(14, 10, 15), rgb(74, 38, 109), rgb(78, 35, 117));
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: ghostwhite;
+}
+
+.janela {
+    background-color: #0f0a1a;
+    width: 480px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.botao-fechar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.conteudo {
+    padding: 40px 30px 30px;
+}
+
+.titulo {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    color: #c78aff;
+}
+
+.subtitulo {
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    background-color: #1a0f2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    color: ghostwhite;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.linha-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.caixa-info {
+    background-color: #1a0f2e;
+    border-radius: 8px;
+    padding: 12px 20px;
+    width: 48%;
+    text-align: center;
+}
+
+.caixa-info span {
+    display: block;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 4px;
+}
+
+.numero-grande {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.opcao input {
+    margin-right: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.botao-cancelar {
+    background-color: transparent;
+    color: #ccc;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao-criar {
+    background: linear-gradient(to right, #b03bce, #8e44ad);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #3a0066, #0a0844);
+    color: white;
+}
+
+.topo h1 {
+    margin: 20px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    width: 80%;
+    margin: 20px;
+    display: block;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.box {
+    width: 90%;
+    height: 280px;
+    margin: 30px auto;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #16003a, #05062e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.placeholder {
+    text-align: center;
+    color: #bbb;
+}
+
+.search-icon {
+    font-size: 60px;
+    display: block;
+    margin-bottom: 10px;
+}

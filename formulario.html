@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Nova Playlist</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <div class="janela">
+        <button class="botao-fechar">×</button>
+
+        <div class="conteudo">
+            <h2 class="titulo">+ Criar Nova Playlist</h2>
+            <p class="subtitulo">Preencha os detalhes da sua playlist</p>
+
+            <div class="campo">
+                <label>Nome da Playlist *</label>
+                <input type="text">
+            </div>
+
+            <div class="campo">
+                <label>Descrição</label>
+                <textarea rows="4"></textarea>
+            </div>
+
+            <div class="campo">
+                <label>URL da Imagem de Capa</label>
+                <input type="text">
+            </div>
+
+            <div class="linha-info">
+                <div class="caixa-info">
+                    <span>Número de Músicas</span>
+                    <div class="numero-grande">0</div>
+                </div>
+                <div class="caixa-info">
+                    <span>Duração</span>
+                    <div class="numero-grande">0h 0min</div>
+                </div>
+            </div>
+
+            <div class="opcao">
+                <input type="checkbox" id="destaque">
+                <label for="destaque">Marcar como playlist em destaque</label>
+            </div>
+
+            <div class="botoes">
+                <button class="botao-cancelar">Cancelar</button>
+                <button class="botao-criar">+ Criar Playlist</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
